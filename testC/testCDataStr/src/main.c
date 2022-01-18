@@ -1,26 +1,12 @@
-#include <stdio.h>
 #include "main.h"
-#include <stdlib.h>
-#include <string.h>
 
-int main()
+int main(int argc, char **argv)
 {
-	unsigned int ulLoop = 0;
-	char buf[16] = {0};
+    (void)argc;
+    (void)argv;
 
-	for (ulLoop = 0; ulLoop < 20; ulLoop++) {
-		printf("%d\t hello world.\n", ulLoop);
-	}
+    test1();
 
-	for (ulLoop = 0; ulLoop < 3; ulLoop++) {
-
-		memset(buf, 0, sizeof(buf));
-
-		sprintf(buf, "%u", 20 * (ulLoop + 1));
-
-		printf("%s - %d - %d.\n", buf, atoi(buf), atoi(buf) / 20);
-
-	}	
-	return 0;
+    return 0;
 }
-
+/* End of this file*/
