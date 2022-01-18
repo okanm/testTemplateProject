@@ -6,6 +6,7 @@ int main(int argc, char **argv)
     (void)argv;
 
     test1();
+    test2();
 
     return 0;
 }

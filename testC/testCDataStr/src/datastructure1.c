@@ -1,8 +1,8 @@
 // INSERT NODE AT THE BEGINNING (head global variable)
 #include "common.h"
 
-void Insert(int x);
-void Print();
+static void Insert(int x);
+static void Print();
 
 struct Node
 {
@@ -21,7 +21,7 @@ struct Node *head;
     head=temp;
 }*/
 
-void Insert(int x) // better
+static void Insert(int x) // better
 {
     struct Node *temp = (struct Node *)malloc(sizeof(struct Node));
     temp->data = x;
@@ -29,7 +29,7 @@ void Insert(int x) // better
     head = temp;
 }
 
-void Print()
+static void Print()
 {
     struct Node *temp = head;
     printf("List is: ");
