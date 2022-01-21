@@ -1,6 +1,5 @@
 //INSERT NODE AT THE BEGINNING v2-2 (head local variable)
 //Here, you need to give arguments to the functions
-
 #include "common.h"
 
 struct Node{
@@ -27,7 +26,7 @@ static void Print(struct Node *head) //this 'head' is local variable actually, s
     printf("\n");
 }
 
-int test3(void)
+int LinkList3(void)
 {
     struct Node *head=NULL;
     printf("How many numbers?\n");

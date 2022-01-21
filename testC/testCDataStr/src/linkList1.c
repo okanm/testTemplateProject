@@ -1,8 +1,9 @@
 // INSERT NODE AT THE BEGINNING (head global variable)
 #include "common.h"
 
-static void Insert(int x);
-static void Print();
+//no need to add these function declaration because your functions are static. i.e nothing else will use these
+//static void Insert(int x);
+//static void Print();
 
 struct Node
 {
@@ -41,7 +42,7 @@ static void Print()
     printf("\n");
 }
 
-int test1(void)
+int LinkList1(void)
 {
 
     head = NULL;

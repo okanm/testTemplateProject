@@ -1,14 +1,17 @@
 //INSERT NODE AT THE BEGINNING v2-1 (head local variable)
 //Here, you need to give arguments to the functions
-
 #include "common.h"
-
 struct Node{
     int data;
     struct Node *next;
 };
 
-struct Node* Insert(struct Node *head, int x) // we have to update head, so we return struct here instead of void
+//no need to add these function declaration because your functions are static. i.e nothing else will use these
+//if you want to add, put them after struct Node because they use "struct Node"
+//static struct Node* Insert(struct Node *head, int x);
+//static void Print(struct Node *head);
+
+static struct Node* Insert(struct Node *head, int x) // we have to update head, so we return struct here instead of void
 {
     struct Node* temp = (struct Node*)malloc(sizeof(struct Node));
     temp->data=x;
@@ -27,7 +30,7 @@ static void Print(struct Node *head) //this 'head' is local variable actually, s
     printf("\n");
 }
 
-int test2(void)
+int LinkList2(void)
 {
     struct Node *head=NULL;
     printf("How many numbers?\n");
