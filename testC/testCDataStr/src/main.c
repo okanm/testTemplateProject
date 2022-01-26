@@ -39,13 +39,15 @@ int main(int argc, char **argv)
     Stack3();
     printf("******Stack4*****\n");
     Stack4();
-    */
     printf("******Stack5*****\n");
     Stack5();
     //Queue
-
+    Queue1();
+    Queue2();
+    */
+    Queue3();
     //Tree
-
+    //Treetest();
     return 0;
 }
 /* End of this file*/

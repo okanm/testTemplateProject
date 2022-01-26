@@ -26,8 +26,10 @@ int Stack3(void);
 int Stack4(void);
 int Stack5(void);
 //Queue functions
-
+int Queue1(void);
+int Queue2(void);
+int Queue3(void);
 // Tree functions
-
+int Treetest(void);
 #endif
 /* End of this file*/
