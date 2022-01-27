@@ -6,6 +6,9 @@
 #include <string.h>
 #include <stdbool.h>
 
+#define max(x, y) (((x) > (y)) ? (x) : (y))
+#define min(x, y) (((x) < (y)) ? (x) : (y))
+
 /* Extended function list. */
 //Link List functions
 int LinkList1(void);
@@ -30,6 +33,10 @@ int Queue1(void);
 int Queue2(void);
 int Queue3(void);
 // Tree functions
-int Treetest(void);
+int Tree1(void);
+int Tree2(void);
+int Tree3(void);
+int Tree4(void);
+int Tree5(void);
 #endif
 /* End of this file*/

@@ -44,10 +44,14 @@ int main(int argc, char **argv)
     //Queue
     Queue1();
     Queue2();
-    */
     Queue3();
+    */
     //Tree
-    //Treetest();
+    //Tree1();
+    //Tree2();
+    //Tree3();
+    //Tree4();
+    Tree5();
     return 0;
 }
 /* End of this file*/
