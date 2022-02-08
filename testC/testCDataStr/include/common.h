@@ -5,6 +5,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
+#include <math.h>
+
+#define INT_MAX INFINITY
+#define INT_MIN -INFINITY
 
 #define max(x, y) (((x) > (y)) ? (x) : (y))
 #define min(x, y) (((x) < (y)) ? (x) : (y))
@@ -38,5 +42,8 @@ int Tree2(void);
 int Tree3(void);
 int Tree4(void);
 int Tree5(void);
+int Tree6(void);
+int Tree7(void);
+int Tree8(void);
 #endif
 /* End of this file*/
